@@ -1,0 +1,1 @@
+exec(open("/Users/kylehang/Desktop/GetStockList.py").read())
