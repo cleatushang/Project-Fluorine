@@ -1,5 +1,12 @@
 # Project Fluorine
 
+##
+```
+pip install sqlalchemy
+pip install pandas
+pip install yfinance
+```
+
 ## Execute the Python
 You can easily open the .py file by following code:
 *change the path location of your own
