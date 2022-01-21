@@ -1,1 +1,10 @@
-exec(open("/Users/kylehang/Desktop/GetStockList.py").read())
+Execute the Python
+You can easily open the .py file by following code:
+
+  exec(open("/Users/kylehang/Desktop/SP500.py").read())
+
+After this, the SP500 list will gather from WIKIPEDIA lively
+and also generate an local sql database file.
+
+Use "DB Browser for SQLite" to view the database
+or by SQL Query in python shell
