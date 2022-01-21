@@ -4,7 +4,9 @@
 ```
 pip install sqlalchemy
 ```
+```
 pip install pandas
+```
 ```
 pip install yfinance
 ```
