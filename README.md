@@ -2,6 +2,7 @@
 
 ## Execute the Python
 You can easily open the .py file by following code:
+*change the path location of your own
 ```
 exec(open("/Users/kylehang/Desktop/SP500.py").read())
 ```
