@@ -58,3 +58,6 @@ Save and exit Nano, Then you may use
 crontab -l
 ```
 To run the schedule
+
+
+############ what nexts i need to go through 
