@@ -2,10 +2,12 @@
 ## Put SP.py file into VM instances
 ### By Nano editor
 Run in SSH  
-`Nano SP.py`
+```Nano SP.py```
 ## Schedule script on GCP
 ### Basic Setup
 Edit VM instances  
 Go Metadata section -> Startup script  
-`python3 /home/*Enter your path*/helloworld.py`
+```python3 /home/*Enter your path*/helloworld.py```  
 It means everytime you startup the VM, the python script will run automatically
+```tail -n 100 /var/log/syslog```  
+check if the script work properly
