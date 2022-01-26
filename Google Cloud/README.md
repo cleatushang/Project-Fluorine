@@ -12,7 +12,8 @@ It means everytime you startup the VM, the python script will run automatically
 ```tail -n 100 /var/log/syslog```  
 check if the script work properly
 ### Create funtion
-```def start_vm(request):
+```
+def start_vm(request):
     from pprint import pprint
     from googleapiclient import discovery
     from oauth2client.client import GoogleCredentials
@@ -29,8 +30,11 @@ check if the script work properly
     # Name of the instance resource to stop.
     instance = 'instance-1' # put here the name of the vm to start
     req = service.instances().start(project=project, zone=zone, instance=instance)
-    response = req.execute()```
-```# Function dependencies, for example: 
+    response = req.execute()
+```
+```
+# Function dependencies, for example: 
 # package>=version 
 google-api-python-client 
-oauth2client```
+oauth2client
+```
