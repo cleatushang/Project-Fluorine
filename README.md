@@ -10,6 +10,9 @@ pip install pandas
 ```
 pip install yfinance
 ```
+```
+pip install stocksymbol
+```
 
 ## Execute the Python
 You can easily open the .py file by following code:
